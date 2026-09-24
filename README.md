@@ -8,7 +8,7 @@
     <a href="https://github.com/array05/IMBATUN/releases/latest"><img src="https://img.shields.io/github/v/release/array05/IMBATUN?style=flat-square&color=b696ff&label=release" alt="Последняя версия"></a>
     <a href="https://t.me/imbavpn_bot"><img src="https://img.shields.io/badge/Telegram-IMBA%20VPN-7de8c2?style=flat-square" alt="Бот IMBA VPN"></a>
   </p>
-  <p><a href="https://github.com/array05/IMBATUN/releases/download/v2.1.6/IMBATUN-2.1.6-Windows-x64.zip"><strong>↓ Скачать для Windows</strong></a> &nbsp; · &nbsp; <a href="https://t.me/imbavpn_bot">Получить доступ</a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases">Все выпуски</a></p>
+  <p><a href="https://github.com/array05/IMBATUN/releases/download/v2.1.7/IMBATUN-2.1.7-Windows-x64.zip"><strong>↓ Скачать для Windows</strong></a> &nbsp; · &nbsp; <a href="https://t.me/imbavpn_bot">Получить доступ</a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases">Все выпуски</a></p>
 </div>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 ## Начать за минуту
 
-1. **Скачайте** [IMBATUN для Windows](https://github.com/array05/IMBATUN/releases/download/v2.1.6/IMBATUN-2.1.6-Windows-x64.zip) и распакуйте архив целиком.
+1. **Скачайте** [IMBATUN для Windows](https://github.com/array05/IMBATUN/releases/download/v2.1.7/IMBATUN-2.1.7-Windows-x64.zip) и распакуйте архив целиком.
 2. **Запустите `IMBATUN.exe`** из распакованной папки. Оставьте рядом папку `core` — она нужна для работы приложения.
 3. **Войдите через Telegram:** отсканируйте QR-код или откройте бота, выберите действующую VLESS-подписку и подтвердите вход.
 4. **Нажмите кнопку подключения.** Можно оставить «Автоматически» или выбрать нужную локацию.
@@ -37,7 +37,7 @@
 
 Нажмите **«Проверить обновления» → «Установить»** в приложении. IMBATUN скачает и проверит пакет, заменит файлы и перезапустится. Сохранённый вход и настройки остаются на месте.
 
-В **2.1.6** исправлен автоматический выбор сервера: он использует ту же проверку Xray, что и ручное подключение. Подробности — в [описании выпуска](https://github.com/array05/IMBATUN/releases/tag/v2.1.6). История изменений вынесена в [CHANGELOG](https://github.com/array05/IMBATUN/blob/main/CHANGELOG.md).
+В **2.1.7** добавлен резервный DNS через VPN и проверка полного пути соединения, включая DNS. Подробности — в [описании выпуска](https://github.com/array05/IMBATUN/releases/tag/v2.1.7). История изменений вынесена в [CHANGELOG](https://github.com/array05/IMBATUN/blob/main/CHANGELOG.md).
 
 ## Как идёт трафик
 
@@ -56,7 +56,7 @@
 
 ### Какой архив скачивать?
 
-В [последнем выпуске](https://github.com/array05/IMBATUN/releases/latest) откройте **Assets** и выберите **`IMBATUN-2.1.6-Windows-x64.zip`**. Это готовое приложение с EXE и необходимыми компонентами.
+В [последнем выпуске](https://github.com/array05/IMBATUN/releases/latest) откройте **Assets** и выберите **`IMBATUN-2.1.7-Windows-x64.zip`**. Это готовое приложение с EXE и необходимыми компонентами.
 
 **`Source code (zip)`**, **`Source code (tar.gz)`** и **Code → Download ZIP** — автоматические архивы содержимого репозитория. Здесь размещены документация и выпуски; исходный код оболочки IMBATUN не опубликован. Поэтому архив старого тега может содержать только README. Для установки используйте готовый Windows ZIP из Assets.
 
