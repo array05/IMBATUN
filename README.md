@@ -8,7 +8,7 @@
     <a href="https://github.com/array05/IMBATUN/releases/latest"><img src="https://img.shields.io/github/v/release/array05/IMBATUN?style=flat-square&color=b696ff&label=release" alt="Последняя версия"></a>
     <a href="https://t.me/imbavpn_bot"><img src="https://img.shields.io/badge/Telegram-IMBA%20VPN-7de8c2?style=flat-square" alt="Бот IMBA VPN"></a>
   </p>
-  <p><a href="https://github.com/array05/IMBATUN/releases/download/v2.1.12/IMBATUN-2.1.12-Windows-x64.zip"><strong>↓ Скачать для Windows</strong></a> &nbsp; · &nbsp; <a href="https://t.me/imbavpn_bot">Получить доступ</a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases">Все выпуски</a></p>
+  <p><a href="https://github.com/array05/IMBATUN/releases/download/v2.1.13/IMBATUN-2.1.13-Windows-x64.zip"><strong>↓ Скачать для Windows</strong></a> &nbsp; · &nbsp; <a href="https://t.me/imbavpn_bot">Получить доступ</a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases">Все выпуски</a></p>
 </div>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 ## Начать за минуту
 
-1. **Скачайте** [IMBATUN для Windows](https://github.com/array05/IMBATUN/releases/download/v2.1.12/IMBATUN-2.1.12-Windows-x64.zip) и распакуйте архив целиком.
+1. **Скачайте** [IMBATUN для Windows](https://github.com/array05/IMBATUN/releases/download/v2.1.13/IMBATUN-2.1.13-Windows-x64.zip) и распакуйте архив целиком.
 2. **Запустите `IMBATUN.exe`** из распакованной папки. Оставьте рядом папку `core` — она нужна для работы приложения.
 3. **Войдите через Telegram:** отсканируйте QR-код или откройте бота, выберите действующую VLESS-подписку и подтвердите вход.
 4. **Нажмите кнопку подключения.** Можно оставить «Автоматически» или выбрать нужную локацию.
@@ -37,7 +37,7 @@
 
 Нажмите **«Проверить обновления» → «Установить»** в приложении. IMBATUN скачает и проверит пакет, заменит файлы и перезапустится. Сохранённый вход и настройки остаются на месте.
 
-В **2.1.12** улучшены восстановление соединения и автовыбор сервера, добавлена локальная диагностика сайта или приложения. Показатели «До входа» и «Через VPN» помогают различать задержку до российского входа и отклик полного маршрута. Подробности — в [описании выпуска](https://github.com/array05/IMBATUN/releases/tag/v2.1.12). История изменений вынесена в [CHANGELOG](https://github.com/array05/IMBATUN/blob/main/CHANGELOG.md).
+В **2.1.13** увеличена видимая область списка локаций. На главном экране и в выборе сервера отдельно показаны TCP от компьютера до входного сервера и HTTPS через полный VPN-маршрут. Сохранены улучшения восстановления, автовыбора и локальной диагностики из 2.1.12. Подробности — в [описании выпуска](https://github.com/array05/IMBATUN/releases/tag/v2.1.13). История изменений вынесена в [CHANGELOG](https://github.com/array05/IMBATUN/blob/main/CHANGELOG.md).
 
 ## Как идёт трафик
 
@@ -56,7 +56,7 @@
 
 ### Какой архив скачивать?
 
-В [последнем выпуске](https://github.com/array05/IMBATUN/releases/latest) откройте **Assets** и выберите **`IMBATUN-2.1.12-Windows-x64.zip`**. Это готовое приложение с EXE и необходимыми компонентами.
+В [последнем выпуске](https://github.com/array05/IMBATUN/releases/latest) откройте **Assets** и выберите **`IMBATUN-2.1.13-Windows-x64.zip`**. Это готовое приложение с EXE и необходимыми компонентами.
 
 **`Source code (zip)`**, **`Source code (tar.gz)`** и **Code → Download ZIP** — автоматические архивы содержимого репозитория. Здесь размещены документация и выпуски; исходный код оболочки IMBATUN не опубликован. Поэтому архив старого тега может содержать только README. Для установки используйте готовый Windows ZIP из Assets.
 
@@ -66,7 +66,7 @@
 
 ### Что означает задержка для RUS → NL / Finland?
 
-**«До входа»** — TCP-задержка до входного сервера. **«Через VPN»** — HTTPS-запрос через всю цепочку, включая зарубежный выход, до контрольного сайта. На главном экране и в оверлее показывается отклик полного маршрута. Он включает установку HTTPS-соединения и не является ICMP-пингом выходного или игрового сервера.
+**«TCP до сервера»** — задержка TCP-соединения от компьютера напрямую до входного сервера. **«HTTPS через VPN»** — HTTPS-запрос через всю цепочку, включая зарубежный выход, до контрольного сайта. На главном экране оба замера показаны отдельно; в оверлее остаётся HTTPS-отклик полного маршрута. HTTPS включает установку HTTPS-соединения и не является ICMP-пингом выходного или игрового сервера.
 
 ### Как проверить отдельный сайт или приложение?
 
