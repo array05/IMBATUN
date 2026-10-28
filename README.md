@@ -2,19 +2,38 @@
   <img src="https://raw.githubusercontent.com/array05/IMBATUN/main/icon.png" width="96" height="96" alt="IMBATUN">
   <h1>IMBATUN</h1>
   <p><strong>VPN там, где нужен. Игры — напрямую.</strong></p>
-  <p>Discord, Telegram, YouTube и зарубежные сервисы через VPN.<br>Российские сайты и распознанные игры — через обычное подключение.</p>
+  <p>Discord, Telegram, YouTube, ChatGPT и Twitch через VPN.<br>Российские сайты и распознанные игры — через обычное подключение.</p>
   <p>
     <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%20x64-7de8c2?style=flat-square" alt="Windows 10 и 11, x64">
     <a href="https://github.com/array05/IMBATUN/releases/latest"><img src="https://img.shields.io/github/v/release/array05/IMBATUN?style=flat-square&color=b696ff&label=release" alt="Последняя версия"></a>
     <a href="https://t.me/imbavpn_bot"><img src="https://img.shields.io/badge/Telegram-IMBA%20VPN-7de8c2?style=flat-square" alt="Бот IMBA VPN"></a>
   </p>
-  <p><a href="https://github.com/array05/IMBATUN/releases/download/v2.2.0/IMBATUN-2.2.0-Windows-x64.zip"><strong>↓ Скачать для Windows</strong></a> &nbsp; · &nbsp; <a href="https://t.me/imbavpn_bot">Получить доступ</a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases">Все выпуски</a></p>
+  <p><a href="https://imbatun.ru/"><strong>Сайт imbatun.ru</strong></a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases/download/v2.2.1/IMBATUN-2.2.1-Windows-x64.zip"><strong>↓ Скачать для Windows</strong></a> &nbsp; · &nbsp; <a href="https://t.me/imbavpn_bot">Получить доступ</a> &nbsp; · &nbsp; <a href="https://github.com/array05/IMBATUN/releases">Все выпуски</a></p>
 </div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/array05/IMBATUN/main/preview.png" width="960" alt="Интерфейс IMBATUN: подключение, выбор сервера и правила маршрутизации">
   <br><sub>Предварительный просмотр интерфейса. Показатели на изображении приведены для примера.</sub>
 </p>
+
+## IMBA VPN — для телефона и компьютера
+
+**Одна VLESS-подписка IMBA VPN — VPN на телефоне и IMBATUN на Windows без доплаты за программу.** Оформите доступ в [Telegram-боте IMBA VPN](https://t.me/imbavpn_bot), настройте телефон по инструкции бота и войдите с этой же подпиской в IMBATUN.
+
+| Что вы получаете | Как это работает |
+| :--- | :--- |
+| VPN для телефона | Подключение через совместимый VPN-клиент по инструкции в боте |
+| IMBATUN для Windows бесплатно | Приложение, обновления, правила для сайтов и игр входят без отдельной оплаты при действующей подписке |
+| Удобный вход | Подтверждение через Telegram вместо ручного переноса ключей в IMBATUN |
+| Выбор локаций | Автоматический выбор рабочего сервера или подключение к выбранной локации |
+
+Сам VPN-доступ оплачивается по тарифу IMBA VPN. Срок подписки, доступные локации и лимит устройств указаны в боте. [Посмотреть сайт](https://imbatun.ru/) · [Выбрать подписку](https://t.me/imbavpn_bot).
+
+## Сервисы и игры
+
+**Через VPN:** Discord, Telegram, YouTube, ChatGPT, Twitch и другие зарубежные сервисы.
+
+**Напрямую по умолчанию для распознанных игр:** Counter-Strike 2, Dota 2, VALORANT, League of Legends, Fortnite, Roblox, Apex Legends и World of Warcraft. Маршрут отдельного приложения можно изменить в настройках.
 
 ## Одно приложение для связи и игр
 
@@ -26,7 +45,7 @@
 
 ## Начать за минуту
 
-1. **Скачайте** [IMBATUN для Windows](https://github.com/array05/IMBATUN/releases/download/v2.2.0/IMBATUN-2.2.0-Windows-x64.zip) и распакуйте архив целиком.
+1. **Скачайте** [IMBATUN для Windows](https://github.com/array05/IMBATUN/releases/download/v2.2.1/IMBATUN-2.2.1-Windows-x64.zip) и распакуйте архив целиком.
 2. **Запустите `IMBATUN.exe`** из распакованной папки. Оставьте рядом папку `core` — она нужна для работы приложения.
 3. **Войдите через Telegram:** отсканируйте QR-код или откройте бота, выберите действующую VLESS-подписку и подтвердите вход.
 4. **Нажмите кнопку подключения.** Можно оставить «Автоматически» или выбрать нужную локацию.
@@ -37,7 +56,7 @@
 
 Нажмите **«Проверить обновления» → «Установить»** в приложении. IMBATUN скачает и проверит пакет, заменит файлы и перезапустится. Сохранённый вход и настройки остаются на месте.
 
-В **2.2.0** добавлены внешний IP VPN на главном экране, компактная панель быстрых настроек, очистка журнала и свежие события сверху. Публичные списки серверов обновляются каждый час; в настройках есть кнопка обновления. DPI и источники с белыми списками временно скрыты. Включены исправления транспорта и восстановления после сбоев DNS. Подробности — в [описании выпуска](https://github.com/array05/IMBATUN/releases/tag/v2.2.0).
+В **2.2.1** обновлены сетевые компоненты: Xray 26.10.21 и sing-box 1.14.4. Включены исправления из официальных выпусков компонентов; вход, настройки и правила сохраняются при обновлении. Все возможности 2.2.0, включая внешний IP VPN, быстрые настройки и обновление публичных списков, сохранены. Подробности — в [описании выпуска 2.2.1](https://github.com/array05/IMBATUN/releases/tag/v2.2.1).
 
 Публичные серверы предоставляет независимый проект [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia). Они не входят в подписку IMBA VPN; авторство указано в приложении.
 
@@ -58,7 +77,7 @@
 
 ### Какой архив скачивать?
 
-В [последнем выпуске](https://github.com/array05/IMBATUN/releases/latest) откройте **Assets** и выберите **`IMBATUN-2.2.0-Windows-x64.zip`**. Это готовое приложение с EXE и необходимыми компонентами.
+В [последнем выпуске](https://github.com/array05/IMBATUN/releases/latest) откройте **Assets** и выберите **`IMBATUN-2.2.1-Windows-x64.zip`**. Это готовое приложение с EXE и необходимыми компонентами.
 
 **`Source code (zip)`**, **`Source code (tar.gz)`** и **Code → Download ZIP** — автоматические архивы содержимого репозитория. Здесь размещены документация и выпуски; исходный код оболочки IMBATUN не опубликован. Поэтому архив старого тега может содержать только README. Для установки используйте готовый Windows ZIP из Assets.
 
@@ -96,4 +115,4 @@ Windows-клиент IMBATUN использует VLESS-доступ из бот
 
 IMBATUN использует [Xray-core](https://github.com/XTLS/Xray-core), [sing-box](https://github.com/SagerNet/sing-box), [Wintun](https://www.wintun.net/) и списки адресов [MetaCubeX](https://github.com/MetaCubeX/meta-rules-dat). Лицензии компонентов включены в Windows ZIP.
 
-<p align="center"><a href="https://t.me/imbavpn_bot">Telegram</a> · <a href="https://github.com/array05/IMBATUN/releases/latest">Скачать</a> · <a href="https://github.com/array05/IMBATUN/issues">Сообщить о проблеме</a></p>
+<p align="center"><a href="https://imbatun.ru/">Сайт</a> · <a href="https://t.me/imbavpn_bot">Telegram</a> · <a href="https://github.com/array05/IMBATUN/releases/latest">Скачать</a> · <a href="https://github.com/array05/IMBATUN/issues">Сообщить о проблеме</a></p>
